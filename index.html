@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping Cart</h1>
+        <!-- <div id="cart-summary">Your cart is empty</div> -->
+    </header>
+    <main>
+        <div id="filter-controls">
+            <input type="number" id="filter-price" placeholder="Min Price">
+            <button onclick="filterProducts()">Filter</button>
+            <button onclick="resetFilter()">Reset Filter</button>
+            <button onclick="location.href='cart.html'"> View Cart</button>
+        </div>
+        <section id="product-list" class="product-list"></section>
+        <div id="pagination-controls">
+            <button onclick="prevPage()">Previous</button>
+            <span id="page-number">1</span>
+            <button onclick="nextPage()">Next</button>
+        </div>
+       
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
