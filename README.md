@@ -1,5 +1,7 @@
 # Shopping Cart Functionality Pseudo Code
 
+## hosted Link: https://sujatha198.github.io/shopping-cart/index.html
+
 ## 1. Data Initialization
 Initialize products array with product details (id, name, price, image)
 Initialize cart array from localStorage or as an empty array
