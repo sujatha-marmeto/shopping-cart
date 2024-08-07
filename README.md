@@ -3,11 +3,11 @@
 ## hosted Link: https://sujatha198.github.io/shopping-cart/index.html
 
 ## 1. Data Initialization
-Initialize products array with product details (id, name, price, image)
-Initialize cart array from localStorage or as an empty array
-Initialize currentPage to 1
-Initialize itemsPerPage to 10
-Initialize filteredProducts as a copy of the products array
+- Initialize products array with product details (id, name, price, image)
+- Initialize cart array from localStorage or as an empty array
+- Initialize currentPage to 1
+- Initialize itemsPerPage to 10
+- Initialize filteredProducts as a copy of the products array
 
 
 ## 2. Document Ready Event
