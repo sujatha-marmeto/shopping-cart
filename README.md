@@ -37,8 +37,6 @@
 - Function renderCart():
 - Clear cart-items element
 
-- javascript
-- Copy code
 - For each `item` in `cart`:
     - Create cart item element with:
         - Image
